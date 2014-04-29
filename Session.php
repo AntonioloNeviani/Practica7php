@@ -7,7 +7,7 @@
 <?php
     session_start();
 ?>
-
+<br/>
 <?php
 $nombreAbmin = "abmin";
 $passwordAdmin = "123";
@@ -17,7 +17,7 @@ $passwordAdmin = "123";
         echo "<p><a href='Cerrar.php'>Cerrar Sesion</a></p>";
         echo "Bienvenido! ".$_POST['nombre'];
     }else{
-        echo "Acceso Restringido";
+        echo "Acceso Restringido intente de nuevo";
     }
 ?>
 <br /><a href="Index.php">Ir a Inicio</a>
